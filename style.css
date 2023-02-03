@@ -1,0 +1,26 @@
+:root{
+    --bg-red-600: #DC2626;
+    --bg-red-500:#EF4444; 
+    --bg-red-400:#F87171;
+    --bg-red-300: #FCA5A5;
+    --bg-zinc-900: #18181B;
+    --bg-stone-900:#1C1917;
+    --bg-white:#F2F2F2;
+    --bg-zinc-50:#FAFAFA;
+    --bg-zinc-600:#52525B;
+    --bg-zinc-500:#71717A;
+    --bg-zinc-400:#A1A1AA;
+    --bg-zinc-200:#E4E4E7;
+}
+body {
+	font-family: 'Inter', sans-serif;
+    font-size: 24px;
+}
+.navbar{
+    background-color: var(--bg-red-600);
+}
+.font-style400{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #000000;
+}
