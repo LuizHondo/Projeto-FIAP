@@ -1,3 +1,9 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
 :root{
     --bg-red-600: #DC2626;
     --bg-red-500:#EF4444; 
@@ -24,3 +30,15 @@ body {
     font-weight: 400;
     color: #000000;
 }
+
+.bg-primary{
+    background-color: var(--bg-red-500);
+    transition: 0.5s;
+    opacity: 0.7;
+}
+
+.bg-primary:hover{
+    background-color: var(--bg-red-500);
+    opacity: 1;
+}
+

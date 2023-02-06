@@ -14,12 +14,14 @@
 </head>
 
 <body>
+
+  <header>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
       <nav class="navbar bg-body-tertiary">
         <div class="container">
           <a class="navbar-brand" href="#">
-            <img src="/Logo.png" alt="Bootstrap" width="110" height="100">
+            <img src="./assets/img/Logo.png" alt="Bootstrap" width="110" height="100">
           </a>
         </div>
       </nav>
@@ -36,12 +38,13 @@
               FIAP Project
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Contribuir com o projeto</a></li>
+              <li><a class="dropdown-item" href="#">Quem somos</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="#">Ajude o projeto</a></li>
             </ul>
           </li>
+         
           <li class="nav-item dropdown justify-content-end">
             <a class="nav-link dropdown-toggle font-style400" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Fases
@@ -56,16 +59,42 @@
               <li><a class="dropdown-item" href="#">Fase 4</a></li>
             </ul>
           </li>
+          <a class="btn bg-gradient button btn-outline-light" href="#" role="button" >
+            Contato
+          </a>
         </ul>
+        
         <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
 
           <button color=white class="btn bg-gradient button btn-outline-light" type="submit">Buscar</button>
         </form>
+       
       </div>
     </div>
   </nav>
-  <p>texto</p>
+</header>
+
+<main>
+  <div class="container-fluid"> 
+    <div class="row">
+      <div class="col-xs-12 col-md-6" >
+        <div class="d-flex justify-content-center flex-column py-5">
+          <h1>Fiap project</h1>
+          <h3>Todas as fases da Fiap feita por alunos da Fiap.</h3>
+          <a class="btn bg-primary button btn-outline-light" href="#" role="button">
+            Saber mais
+          </a>
+        </div>
+       
+      </div>
+      <div class="col-xs-12 col-md-6" style="background-color: var(--bg-red-600);">
+        One of two columns
+      </div>
+    </div>
+    </div>  
+</main>
+<footer></footer>
 
 
 
